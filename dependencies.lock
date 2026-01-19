@@ -2,13 +2,13 @@ dependencies:
   esp_lcd_sh8601:
     dependencies: []
     source:
-      path: /Users/jonas/Development/watermate/MainApp/components/esp_lcd_sh8601
+      path: /Users/jonas/Development/watermate/components/esp_lcd_sh8601
       type: local
     version: 1.0.0
   espressif/cmake_utilities:
     dependencies: []
     source:
-      path: /Users/jonas/Development/watermate/MainApp/components/espressif__cmake_utilities
+      path: /Users/jonas/Development/watermate/components/espressif__cmake_utilities
       type: local
     version: 0.5.3
   idf:
@@ -18,7 +18,7 @@ dependencies:
   lvgl:
     dependencies: []
     source:
-      path: /Users/jonas/Development/watermate/MainApp/components/lvgl
+      path: /Users/jonas/Development/watermate/components/lvgl
       type: local
     version: 8.3.11
 direct_dependencies:

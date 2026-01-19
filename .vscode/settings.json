@@ -4,17 +4,20 @@
   "idf.openOcdConfigs": [
     "board/esp32s3-builtin.cfg"
   ],
-  "idf.port": "/dev/tty.usbmodem2101",
+  "idf.port": "/dev/cu.usbmodem2101",
   "idf.toolsPath": "/Users/jonas/.espressif",
   "idf.customExtraVars": {
     "IDF_TARGET": "esp32s3"
   },
+  "idf.adapterTargetName": "esp32s3",
   "clangd.path": "/Users/jonas/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/clangd",
   "clangd.arguments": [
     "--background-index",
     "--query-driver=**",
     "--compile-commands-dir=/Users/jonas/Development/watermate/build"
   ],
-  "idf.flashType": "JTAG",
-  "idf.monitorPort": "/dev/tty.usbmodem2101"
+  "idf.flashType": "UART",
+  "idf.monitorPort": "/dev/cu.usbmodem2101",
+  "idf.cmakeCompilerArgs": [],
+  "C_Cpp.errorSquiggles": "disabled"
 }
